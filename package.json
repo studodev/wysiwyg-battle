@@ -1,6 +1,18 @@
 {
-    "name": "wysiwyg-battle",
+    "name": "wysiwig-battle",
+    "private": true,
     "version": "1.0.0",
-    "author": "Robin Delbaere <hello@rdelbaere.fr>",
-    "license": "MIT"
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "typescript": "^5.5.3",
+        "vite": "^5.4.1"
+    },
+    "dependencies": {
+        "ckeditor5": "^43.1.1"
+    }
 }
