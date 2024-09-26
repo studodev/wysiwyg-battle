@@ -14,6 +14,9 @@
     },
     "dependencies": {
         "@editorjs/editorjs": "^2.30.6",
-        "ckeditor5": "^43.1.1"
+        "@editorjs/header": "^2.8.7",
+        "@editorjs/image": "^2.9.3",
+        "ckeditor5": "^43.1.1",
+        "quill": "^2.0.2"
     }
 }
